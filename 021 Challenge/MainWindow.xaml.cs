@@ -76,6 +76,16 @@ namespace _021_Challenge
             string outDays = string.Format("Number of Days Out: {0}", daysOut.TotalDays);
             daysOutLabel.Content = outDays;
 
+            //vaca days
+
+            double vacaDays = 0;
+
+            int timeSpan = int.Parse(daysOut.TotalDays.ToString());
+
+            vacaDays = ((timeSpan - (timeSpan % 5)) / 5) * 2;
+
+            vacationDaysLabel.Content = "Days of Vacation Earned: " + vacaDays;
+            
 
 
         }

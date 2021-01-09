@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:_021_Challenge"
         mc:Ignorable="d"
         Title="MainWindow" Height="750
-        " Width="900">
+        " Width="1000">
     <Grid>
-        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="422" Margin="558,217,0,0" VerticalAlignment="Top" Width="342">
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="422" Margin="562,219,0,0" VerticalAlignment="Top" Width="344">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF6F9F5" Offset="1"/>
@@ -16,7 +16,7 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
-        <Border BorderThickness="1" BorderBrush="Black" Margin="295,182,396,95">
+        <Border BorderThickness="1" BorderBrush="Black" Margin="320,182,463,95">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF8F8FA" Offset="1"/>
@@ -24,7 +24,7 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
-        <Border BorderThickness="1" BorderBrush="Black" Margin="33,182,626,95">
+        <Border BorderThickness="1" BorderBrush="Black" Margin="44,182,708,95">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF7F1F1" Offset="1"/>
@@ -33,31 +33,33 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
-        <Label x:Name="label" Content="Driver Name" HorizontalAlignment="Left" Margin="36,216,0,0" VerticalAlignment="Top" Height="38" Width="88"/>
-        <Label x:Name="label1" Content="Social Security" HorizontalAlignment="Left" Margin="36,290,0,0" VerticalAlignment="Top" Height="37" Width="98"/>
-        <Label x:Name="label2" Content="Phone" HorizontalAlignment="Left" Margin="39,366,0,0" VerticalAlignment="Top" Height="39" Width="49"/>
-        <Label x:Name="label3" Content="Start Miles" HorizontalAlignment="Left" Margin="33,520,0,0" VerticalAlignment="Top" Height="37" Width="75"/>
-        <Label x:Name="label4" Content="End Miles" HorizontalAlignment="Left" Margin="39,575,0,0" VerticalAlignment="Top" Height="38" Width="69"/>
-        <CheckBox x:Name="checkRefrigerated" Content="Refrigerated ($0.12 per Mile)" HorizontalAlignment="Left" Margin="39,477,0,0" VerticalAlignment="Top" Height="21" Width="194"/>
-        <TextBox x:Name="textSS" HorizontalAlignment="Left" Margin="58,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="27"/>
-        <TextBox x:Name="textPhone" HorizontalAlignment="Left" Margin="58,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="25"/>
-        <TextBox x:Name="textStartMiles" HorizontalAlignment="Left" Margin="108,532,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="25"/>
-        <TextBox x:Name="textEndMiles" HorizontalAlignment="Left" Margin="108,586,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="27"/>
-        <Label x:Name="label7" Content="Date Left" HorizontalAlignment="Left" Margin="318,217,0,0" VerticalAlignment="Top" Height="25"/>
-        <Label x:Name="label8" Content="Label" HorizontalAlignment="Left" Margin="377,359,0,0" VerticalAlignment="Top" Height="26"/>
-        <Label x:Name="label9" Content="Date Return" HorizontalAlignment="Left" Margin="319,415,0,0" VerticalAlignment="Top" Height="26"/>
-        <Calendar x:Name="calendarLeft" HorizontalAlignment="Left" Margin="306,246,0,0" VerticalAlignment="Top" Height="165"/>
-        <Calendar x:Name="calendarReturn" HorizontalAlignment="Left" Margin="306,441,0,0" VerticalAlignment="Top" Height="165"/>
-        <Label x:Name="nameLabel" Content="" HorizontalAlignment="Left" Margin="597,228,0,0" VerticalAlignment="Top" Width="279"/>
-        <Label x:Name="SSlabel" Content="" HorizontalAlignment="Left" Margin="597,272,0,0" VerticalAlignment="Top" Width="279"/>
-        <Label x:Name="phoneLabel" Content="" HorizontalAlignment="Left" Margin="597,318,0,0" VerticalAlignment="Top" Width="279"/>
-        <Label x:Name="totalMileLabel" Content="" HorizontalAlignment="Left" Margin="658,372,0,0" VerticalAlignment="Top" Width="218"/>
-        <Label x:Name="daysOutLabel" Content="" HorizontalAlignment="Left" Margin="658,413,0,0" VerticalAlignment="Top" Width="218"/>
-        <Label x:Name="payLabel" Content="" HorizontalAlignment="Left" Margin="607,466,0,0" VerticalAlignment="Top" Width="269"/>
-        <Label x:Name="vacationDaysLabel" Content="" HorizontalAlignment="Left" Margin="658,532,0,0" VerticalAlignment="Top" Width="218"/>
-        <Button x:Name="button" Content="Print Driver Ticket" HorizontalAlignment="Left" Margin="585,182,0,0" VerticalAlignment="Top" Width="291" Height="26" Background="#FFD5ED1F" FontWeight="Bold" Click="button_Click"/>
-        <Label x:Name="label5" Content="Driver Info" HorizontalAlignment="Left" Margin="33,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label x:Name="label6" Content="Dates Driven" HorizontalAlignment="Left" Margin="306,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox x:Name="textName" HorizontalAlignment="Left" Margin="58,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="26"/>
+        <Label x:Name="label" Content="Driver Name" HorizontalAlignment="Left" Margin="44,208,0,0" VerticalAlignment="Top" Height="38" Width="88"/>
+        <Label x:Name="label1" Content="Social Security" HorizontalAlignment="Left" Margin="44,282,0,0" VerticalAlignment="Top" Height="37" Width="98"/>
+        <Label x:Name="label2" Content="Phone" HorizontalAlignment="Left" Margin="47,358,0,0" VerticalAlignment="Top" Height="39" Width="49"/>
+        <Label x:Name="label3" Content="Start Miles" HorizontalAlignment="Left" Margin="41,512,0,0" VerticalAlignment="Top" Height="37" Width="75"/>
+        <Label x:Name="label4" Content="End Miles" HorizontalAlignment="Left" Margin="47,567,0,0" VerticalAlignment="Top" Height="38" Width="69"/>
+        <CheckBox x:Name="checkRefrigerated" Content="Refrigerated ($0.12 per Mile)" HorizontalAlignment="Left" Margin="47,469,0,0" VerticalAlignment="Top" Height="21" Width="194"/>
+        <TextBox x:Name="textSS" HorizontalAlignment="Left" Margin="66,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="27"/>
+        <TextBox x:Name="textPhone" HorizontalAlignment="Left" Margin="66,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="25"/>
+        <TextBox x:Name="textStartMiles" HorizontalAlignment="Left" Margin="116,524,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="25"/>
+        <TextBox x:Name="textEndMiles" HorizontalAlignment="Left" Margin="116,578,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="27"/>
+        <Label x:Name="label7" Content="Date Left" HorizontalAlignment="Left" Margin="343,217,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label x:Name="label8" Content="Label" HorizontalAlignment="Left" Margin="402,359,0,0" VerticalAlignment="Top" Height="26"/>
+        <Label x:Name="label9" Content="Date Return" HorizontalAlignment="Left" Margin="344,415,0,0" VerticalAlignment="Top" Height="26"/>
+        <Calendar x:Name="calendarLeft" HorizontalAlignment="Left" Margin="331,246,0,0" VerticalAlignment="Top" Height="165"/>
+        <Calendar x:Name="calendarReturn" HorizontalAlignment="Left" Margin="331,441,0,0" VerticalAlignment="Top" Height="165"/>
+        <Label x:Name="nameLabel" Content="" HorizontalAlignment="Left" Margin="593,231,0,0" VerticalAlignment="Top" Width="279"/>
+        <Label x:Name="SSlabel" Content="" HorizontalAlignment="Left" Margin="593,275,0,0" VerticalAlignment="Top" Width="280"/>
+        <Label x:Name="phoneLabel" Content="" HorizontalAlignment="Left" Margin="593,319,0,0" VerticalAlignment="Top" Width="279"/>
+        <Label x:Name="totalMileLabel" Content="" HorizontalAlignment="Left" Margin="652,375,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="daysOutLabel" Content="" HorizontalAlignment="Left" Margin="652,415,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="payLabel" Content="" HorizontalAlignment="Left" Margin="593,473,0,0" VerticalAlignment="Top" Width="269"/>
+        <Label x:Name="vacationDaysLabel" Content="" HorizontalAlignment="Left" Margin="652,534,0,0" VerticalAlignment="Top" Width="218"/>
+        <Button x:Name="button" Content="Print Driver Ticket" HorizontalAlignment="Left" Margin="578,185,0,0" VerticalAlignment="Top" Width="309" Height="26" Background="#FFD5ED1F" FontWeight="Bold" Click="button_Click"/>
+        <Label x:Name="label5" Content="Driver Info" HorizontalAlignment="Left" Margin="41,177,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="label6" Content="Dates Driven" HorizontalAlignment="Left" Margin="331,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Margin="66,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="26"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="593,93,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="0,0,0,562" Stretch="Fill" Source="pack://siteoforigin:,,,/Inkedpexels-quintin-gellar-2199293_LI.jpg"/>
     </Grid>
 </Window>
